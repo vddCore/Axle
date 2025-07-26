@@ -1,9 +1,9 @@
-namespace GlitoneaDesktopApp;
+namespace Axle;
 
 using System.Diagnostics;
 using Autofac;
+using Axle.View.Windows;
 using Glitonea.Extensibility;
-using GlitoneaDesktopApp.View.Windows;
 
 [DoNotNotify]
 public partial class App : Application, IContainerBuildingSubscriber

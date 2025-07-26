@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp.ViewModel.Windows;
+﻿namespace Axle.ViewModel.Windows;
 
 using Glitonea.Mvvm;
 

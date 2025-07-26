@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp.View.CoreUI;
+﻿namespace Axle.View.CoreUI;
 
 using Avalonia.Controls;
 

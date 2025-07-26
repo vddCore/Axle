@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp;
+﻿namespace Axle;
 
 using System;
 using System.Reflection;

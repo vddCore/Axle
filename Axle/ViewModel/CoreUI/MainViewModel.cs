@@ -1,4 +1,4 @@
-﻿namespace GlitoneaDesktopApp.ViewModel.CoreUI;
+﻿namespace Axle.ViewModel.CoreUI;
 
 public class MainViewModel : ViewModelBase
 {
