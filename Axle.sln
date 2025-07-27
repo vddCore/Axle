@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitonea.UI", "Glitonea.Fra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Glitonea.Persistence.Json", "Glitonea.Framework\Glitonea.Persistence\Glitonea.Persistence.Json\Glitonea.Persistence.Json.csproj", "{AA7A7377-4A16-49B3-905B-BD6A507A6908}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axle.Framework", "Axle.Framework\Axle.Framework.csproj", "{CFFAF8F1-B966-4788-8DF8-EC4060DC4E31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{AA7A7377-4A16-49B3-905B-BD6A507A6908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7A7377-4A16-49B3-905B-BD6A507A6908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7A7377-4A16-49B3-905B-BD6A507A6908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFAF8F1-B966-4788-8DF8-EC4060DC4E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFAF8F1-B966-4788-8DF8-EC4060DC4E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFAF8F1-B966-4788-8DF8-EC4060DC4E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFAF8F1-B966-4788-8DF8-EC4060DC4E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{66298861-9580-4275-8F41-887B76FFF62A} = {BFE1A8AC-8ADF-41D9-A568-011CD99E8FE3}

@@ -4,5 +4,25 @@
              xmlns:mvvm="clr-namespace:Glitonea.Mvvm;assembly=Glitonea"
              xmlns:vm="clr-namespace:Axle.ViewModel.CoreUI"
              DataContext="{mvvm:DataContextSource vm:MainViewModel}">
+    <Grid Margin="1,0,0,1">
+        <Border BorderThickness="0,1,1,0"
+                CornerRadius="0,4,0,0"
+                BorderBrush="#99E4792C"
+                Background="#06E4792C"
+                Padding="8,6,6,8"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom">
+            <TextBlock VerticalAlignment="Bottom">
+                <Run Text="{Binding Manufacturer}"
+                     FontSize="16" />
 
+                <LineBreak />
+
+                <Run Text="{Binding DeviceName}"
+                     FontSize="16"
+                     FontWeight="SemiLight"
+                     Foreground="#AAFFFFFF" />
+            </TextBlock>
+        </Border>
+    </Grid>
 </UserControl>

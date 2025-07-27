@@ -18,5 +18,9 @@
         <FluentTheme />
 
         <fa:FluentAvaloniaTheme PreferSystemTheme="True" />
+        
+        <Style Selector="TextElement">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+        </Style>
     </Application.Styles>
 </Application>

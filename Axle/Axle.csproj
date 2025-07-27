@@ -25,13 +25,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Axle.Framework\Axle.Framework.csproj" />
     <ProjectReference Include="..\Glitonea.Framework\Glitonea.Persistence\Glitonea.Persistence.Json\Glitonea.Persistence.Json.csproj" />
     <ProjectReference Include="..\Glitonea.Framework\Glitonea.UI\Glitonea.UI.csproj" />
     <ProjectReference Include="..\Glitonea.Framework\Glitonea\Glitonea.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\Services\" />
     <Folder Include="Model\" />
     <Folder Include="ViewModel\Controls\" />
     <Folder Include="View\Controls\" />
@@ -49,6 +49,9 @@
     <Compile Update="View\CoreUI\MainView.axaml.cs">
       <DependentUpon>MainView.axaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Infrastructure\Services\DeviceInterfaceService.cs">
+      <DependentUpon>IDeviceInterfaceService.cs</DependentUpon>
     </Compile>
   </ItemGroup>
 

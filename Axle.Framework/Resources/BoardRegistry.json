@@ -1,0 +1,118 @@
+﻿{
+  "FRAPMACP03": {
+    "Type": "Laptop12",
+    "Comment": "13th Gen Intel Core (i3-1315U)"
+  },
+  "FRAPMACP05": {
+    "Type": "Laptop12",
+    "Comment": "13th Gen Intel Core (i5-1334U)"
+  },
+  "FRANBMCP03": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i5-1135G7)"
+  },
+  "FRANBMCP05": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i5-1135G7)"
+  },
+  "FRANBMCP0A": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i5-1135G7)"
+  },
+  "FRANBMCP06": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i7-1165G7)"
+  },
+  "FRANBMCP08": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i7-1185G7)"
+  },
+  "FRANBMCP0C": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i7-1185G7)"
+  },
+  "FRANMACP04": {
+    "Type": "Laptop13",
+    "Comment": "12th Gen Intel Core (i5-1240P)"
+  },
+  "FRANMACP06": {
+    "Type": "Laptop13",
+    "Comment": "12th Gen Intel Core (i7-1260P)"
+  },
+  "FRANMACP08": {
+    "Type": "Laptop13",
+    "Comment": "12th Gen Intel Core (i7-1280P)"
+  },
+  "FRANMECP05": {
+    "Type": "Laptop13",
+    "Comment": "Intel Core Ultra Series 1 (7 155H)"
+  },
+  "FRANMGCP07": {
+    "Type": "Laptop13",
+    "Comment": "AMD Ryzen AI 300 Series (AI 7 350)"
+  },
+  "FRANMZCP07": {
+    "Type": "Laptop16",
+    "Comment": "AMD Ryzen 7040 Series (7840HS)"
+  },
+  "FRANMZCP09": {
+    "Type": "Laptop16",
+    "Comment": "AMD Ryzen 7040 Series (7940HS)"
+  },
+  "FRANMGCP09": {
+    "Type": "Laptop13",
+    "Comment": "AMD Ryzen AI 300 Series (AI 9 HX 370)"
+  },
+  "FRANMDCP05": {
+    "Type": "Laptop13",
+    "Comment": "AMD Ryzen 7040 Series (7640U)"
+  },
+  "FRANMDCP07": {
+    "Type": "Laptop13",
+    "Comment": "AMD Ryzen 7040 Series (7840U)"
+  },
+  "FRANMECP02": {
+    "Type": "Laptop13",
+    "Comment": "Intel Core Ultra Series 1 (5 125H)"
+  },
+  "FRANMGCP05": {
+    "Type": "Laptop13",
+    "Comment": "AMD Ryzen AI 300 Series (AI 5 340)"
+  },
+  "FRANMCCP04": {
+    "Type": "Laptop13",
+    "Comment": "13th Gen Intel Core (i5-1340P)"
+  },
+  "FRANMCCP06": {
+    "Type": "Laptop13",
+    "Comment": "13th Gen Intel Core (i7-1360P)"
+  },
+  "FRANGACP06": {
+    "Type": "Laptop13",
+    "Comment": "12th Gen Intel Core (i7-1260P)"
+  },
+  "FRANBMCP0B": {
+    "Type": "Laptop13",
+    "Comment": "11th Gen Intel Core (i7-1165G7)"
+  },
+  "FRANMECP06": {
+    "Type": "Laptop13",
+    "Comment": "Intel Core Ultra Series 1 (7 165H)"
+  },
+  "FRANGACP04": {
+    "Type": "Laptop13",
+    "Comment": "12th Gen Intel Core (i5-1240P)"
+  },
+  "FRANMCCP07": {
+    "Type": "Laptop13",
+    "Comment": "13th Gen Intel Core (i7-1370P)"
+  },
+  "FRANGACP08": {
+    "Type": "Laptop13",
+    "Comment": "12th Gen Intel Core (i7-1280P)"
+  },
+  "FRANMDCP00": {
+    "Type": "Laptop13",
+    "Comment": "AMD Ryzen 7040 Series (7840U)"
+  }
+}
