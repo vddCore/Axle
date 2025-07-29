@@ -1,0 +1,28 @@
+﻿<UserControl x:Class="Axle.View.CoreUI.Main.DeviceUnsupportedView"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mvvm="clr-namespace:Glitonea.Mvvm;assembly=Glitonea"
+             xmlns:controls="clr-namespace:FluentAvalonia.UI.Controls;assembly=FluentAvalonia">
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+        <controls:FontIcon Glyph="&#xE814;"
+                           FontSize="72"
+                           Foreground="#FF7700"/>
+        
+        <TextBlock Text="Unsupported device" 
+                   FontSize="20"
+                   TextAlignment="Center"
+                   Foreground="#FF7700" />
+        
+        <TextBlock TextAlignment="Center"
+                   Opacity="0.5"
+                   FontSize="16">
+            <Run Text="Your device is not supported by Axle." />
+            <LineBreak />
+            <LineBreak />
+            <Run Text="If you're running this program on a Framework machine," />
+            <LineBreak />
+            <Run Text="please submit an issue on the GitHub repository page."></Run>
+        </TextBlock>
+    </StackPanel>
+</UserControl>

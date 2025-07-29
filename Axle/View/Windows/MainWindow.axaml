@@ -8,7 +8,7 @@
                   xmlns:controls="clr-namespace:Glitonea.UI.Controls;assembly=Glitonea.UI"
                   DataContext="{mvvm:DataContextSource vm:MainWindowViewModel}"
                   Width="700"
-                  Height="240"
+                  Height="360"
                   WindowStartupLocation="CenterScreen"
                   Title="Framework Driver Installer"
                   CanFullScreen="True"

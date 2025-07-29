@@ -32,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Assets\Images\Vector\" />
     <Folder Include="Model\" />
     <Folder Include="ViewModel\Controls\" />
     <Folder Include="View\Controls\" />
@@ -53,9 +54,19 @@
     <Compile Update="Infrastructure\Services\DeviceInterfaceService.cs">
       <DependentUpon>IDeviceInterfaceService.cs</DependentUpon>
     </Compile>
+    <Compile Update="View\Controls\Main\DeviceUnsupportedView.axaml.cs">
+      <DependentUpon>DeviceUnsupportedView.axaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Controls\Main\DriverInstallerView.axaml.cs">
+      <DependentUpon>DriverInstallerView.axaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <AdditionalFiles Include="View\CoreUI\Main\DeviceUnsupportedView.axaml" />
+    <AdditionalFiles Include="View\CoreUI\Main\DriverInstallerView.axaml" />
     <AdditionalFiles Include="View\Windows\MainWindow.axaml" />
   </ItemGroup>
 </Project>

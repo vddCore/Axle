@@ -3,6 +3,7 @@
              xmlns:gli="clr-namespace:Glitonea;assembly=Glitonea"
              xmlns:gui="clr-namespace:Glitonea.UI;assembly=Glitonea.UI"
              xmlns:fa="clr-namespace:FluentAvalonia.Styling;assembly=FluentAvalonia"
+             xmlns:controls="clr-namespace:FluentAvalonia.UI.Controls;assembly=FluentAvalonia"
              x:Class="Axle.App"
              RequestedThemeVariant="Default">
     <Application.Resources>
@@ -21,6 +22,10 @@
         
         <Style Selector="TextElement">
             <Setter Property="FontFamily" Value="Segoe UI" />
+        </Style>
+        
+        <Style Selector="controls|FontIcon">
+            <Setter Property="FontFamily" Value="Segoe Fluent Icons" />
         </Style>
     </Application.Styles>
 </Application>

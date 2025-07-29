@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Axle.View.CoreUI.Main.DriverInstallerView"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mvvm="clr-namespace:Glitonea.Mvvm;assembly=Glitonea"
+             xmlns:gui="clr-namespace:Glitonea.UI.Controls;assembly=Glitonea.UI">
+    <Grid Margin="1,0,0,1">
+        <Border BorderThickness="0,1,1,0"
+                CornerRadius="0,10,0,0"
+                BorderBrush="{Binding $parent[gui:FluentWindow].BorderBrush}"
+                Background="#06E4792C"
+                Padding="8,6,8,8"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom">
+            <Border.Transitions>
+                <Transitions>
+                    <BrushTransition Property="BorderBrush"
+                                     Easing="{DynamicResource WindowBorderTransitionEasing}"
+                                     Duration="{DynamicResource WindowBorderTransitionTimeSpan}" />
+                </Transitions>
+            </Border.Transitions>
+            <TextBlock VerticalAlignment="Bottom">
+                <Run Text="{Binding DeviceName}"
+                     FontSize="16"
+                     FontWeight="SemiLight"
+                     Foreground="#AAFFFFFF" />
+            </TextBlock>
+        </Border>
+    </Grid>
+</UserControl>

@@ -4,10 +4,19 @@ using Axle.Framework.Devices.Base;
 
 public class DeviceInterfaceService : IDeviceInterfaceService
 {
-    public FrameworkDevice Device { get; }
+    public bool IsSupportedDevice { get; }
+    public FrameworkDevice? Device { get; }
 
     public DeviceInterfaceService()
     {
-        Device = FrameworkDevice.Detect();
+        try
+        {
+            Device = FrameworkDevice.Detect();
+            IsSupportedDevice = true;
+        }
+        catch
+        {
+            IsSupportedDevice = false;
+        }
     }
 }
