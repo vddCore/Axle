@@ -7,7 +7,7 @@
              xmlns:main="clr-namespace:Axle.View.CoreUI.Main"
              DataContext="{mvvm:DataContextSource vm:MainViewModel}">
     <Grid>
-        <main:DriverInstallerView IsVisible="{Binding IsSupportedDevice}" />
+        <main:DeviceSupportedView IsVisible="{Binding IsSupportedDevice}" />
         <main:DeviceUnsupportedView IsVisible="{Binding !IsSupportedDevice}" />
     </Grid>
 </UserControl>

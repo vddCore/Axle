@@ -1,9 +1,9 @@
 ﻿namespace Axle.View.CoreUI.Main;
 
 [DoNotNotify]
-public partial class DriverInstallerView : UserControl
+public partial class DeviceSupportedView : UserControl
 {
-    public DriverInstallerView()
+    public DeviceSupportedView()
     {
         InitializeComponent();
     }
